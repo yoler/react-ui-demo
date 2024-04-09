@@ -16,7 +16,7 @@ import {
     Chip,
     Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, useDisclosure
 } from "@nextui-org/react";
-import { HamburgerIcon, SearchIcon, StarIcon, SunIcon, ChevronRightIcon, ViewIcon, EditIcon, ChevronDownIcon} from '@chakra-ui/icons'
+import { HamburgerIcon, SearchIcon, StarIcon, SunIcon} from '@chakra-ui/icons'
 
 function NextuiDemo({setUI}) {
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
